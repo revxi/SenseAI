@@ -24,6 +24,11 @@ function App() {
   return (
     <div className="app">
       <h1>🧠 SenseAI</h1>
+      <p style={{ textAlign: "center" }}>
+        <a href="/sentiment.html" target="_blank" rel="noopener noreferrer" style={{ color: "#646cff" }}>
+          Launch Empathy Engine (Sentiment Analysis)
+        </a>
+      </p>
       <ChatWindow messages={messages} />
       <InputArea onSend={sendMessage} />
     </div>
